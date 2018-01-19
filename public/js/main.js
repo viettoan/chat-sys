@@ -13,7 +13,7 @@ $(document).ready(function() {
                             <div class="avatar"><img src="https://i.imgur.com/HYcn9xO.png" draggable="false"/></div>
                             <div class="msg">
                                 <p>${res.messages[i].content }</p>
-                                <time>20:18</time>
+                                <time>${res.messages[i].updated_at }</time>
                             </div>
                         </li>
                     `;
@@ -23,7 +23,7 @@ $(document).ready(function() {
                         <div class="avatar"><img src="https://i.imgur.com/DY6gND0.png" draggable="false"/></div>
                         <div class="msg">
                             <p>${res.messages[i].content }</p>
-                            <time>20:17</time>
+                            <time>${res.messages[i].updated_at }</time>
                         </div>
                     </li>
                 `;
